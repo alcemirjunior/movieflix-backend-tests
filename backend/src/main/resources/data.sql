@@ -11,16 +11,26 @@ INSERT INTO tb_genre (name) VALUES ('Action');
 INSERT INTO tb_genre (name) VALUES ('Comedy');
 INSERT INTO tb_genre (name) VALUES ('Terror');
 
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 1', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 1', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 1);
 INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 2', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 3', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 4', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 3', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 3);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 4', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 1);
 INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 5', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 6', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 7', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 6', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 3);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 7', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 1);
 INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 8', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 9', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
-INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 10', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 2);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 9', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 3);
+INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 10', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 1);
 
+
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 1);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 2);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 3);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 4);
 INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 5);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 6);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 7);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 8);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 9);
+INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 10);
 
