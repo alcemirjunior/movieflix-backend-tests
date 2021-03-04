@@ -5,7 +5,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 @Entity
 @Table(name = "tb_genre")
@@ -14,11 +13,9 @@ public class Genre implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "genre_id")
     private Long id;
     private String name;
-
-    @OneToMany(mappedBy = "genre")
-    private List<Movie> movies = new ArrayList<>();
 
     public Genre() {
     }
@@ -44,9 +41,6 @@ public class Genre implements Serializable {
         this.name = name;
     }
 
-    public List<Movie> getMovies() {
-        return movies;
-    }
 
     @Override
     public boolean equals(Object o) {

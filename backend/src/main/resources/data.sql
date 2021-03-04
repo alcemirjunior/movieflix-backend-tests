@@ -23,14 +23,3 @@ INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUE
 INSERT INTO tb_movie (title, sub_title, year, img_url, synopsis, genre_id) VALUES ('spider-man 10', 'o homem aranha', 2011, 'teste', 'é um filme de 2011', 1);
 
 
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 1);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 2);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 3);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 4);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 5);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 6);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 7);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 8);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 9);
-INSERT INTO tb_review(text, user_id, movie_id) VALUES ('o filme é mto bom, gostei', 2, 10);
-

@@ -1,7 +1,6 @@
 package com.devsuperior.movieflix.dto;
 
 import com.devsuperior.movieflix.entities.Genre;
-import org.springframework.security.core.userdetails.UserDetails;
 
 import java.io.Serializable;
 
@@ -24,6 +23,7 @@ public class GenreDTO implements Serializable {
         name = entity.getName();
     }
 
+
     public Long getId() {
         return id;
     }
@@ -39,4 +39,5 @@ public class GenreDTO implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+
 }

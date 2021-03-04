@@ -25,10 +25,10 @@ public class AuthService {
             throw new UnauthorizedException("Invalid user");
         }
     }
-    public void validateSelfOrAdmin(Long userId){
+    public void validateRole(){
         User user = authenticated();
-        if (!user.getId().equals(userId) && !user.hasHole("VISITOR")){
-            throw new ForbiddenException("Acess denied");
+        if (!user.hasHole("VISITOR") && !user.hasHole("MEMBER")){
+            throw new ForbiddenException("Access denied");
         }
     }
 
