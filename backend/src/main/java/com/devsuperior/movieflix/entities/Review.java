@@ -1,5 +1,7 @@
 package com.devsuperior.movieflix.entities;
 
+import com.devsuperior.movieflix.dto.ReviewDTO;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;

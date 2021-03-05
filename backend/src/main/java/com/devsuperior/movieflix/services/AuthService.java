@@ -27,9 +27,16 @@ public class AuthService {
     }
     public void validateRole(){
         User user = authenticated();
-        if (!user.hasHole("VISITOR") && !user.hasHole("MEMBER")){
+        if (!user.hasHole("ROLE_VISITOR") && !user.hasHole("ROLE_MEMBER")){
             throw new ForbiddenException("Access denied");
         }
+    }
+    public User validateMember(){
+        User user = authenticated();
+        if (!user.hasHole("ROLE_MEMBER")){
+            throw new ForbiddenException("Access denied");
+        }
+        return user;
     }
 
 }
